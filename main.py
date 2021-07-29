@@ -17,3 +17,5 @@ ingredientsResponse = requests.get(urlSearch.format(ingredient=ingredients[0]), 
 soupIngredients = BeautifulSoup(ingredientsResponse.text, 'html.parser')
 
 print(soupIngredients.h1)
+
+print('test')
